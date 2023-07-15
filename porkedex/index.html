@@ -1,0 +1,101 @@
+<!---jogo mata msoquito ---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porkedex</title>
+</head>
+<center>
+<body >
+    
+<!--------
+<input type="text" 
+placeholder="Digite seu nome"
+id="nome_usuario"
+class="campo_texto"
+name="nome"
+
+>-->
+<style>
+
+button{
+
+text-align: left;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+background-color: brown;
+border-color: aliceblue;
+
+
+
+}
+body{
+    
+    background-image: url(campo.jpg)  ; 
+    background-size: 1450px;
+    background-position: center;
+     
+
+}
+img{
+
+position: absolute;
+text-align: center;
+top: 70px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+
+}
+
+
+
+
+
+</style>
+
+
+<img  id="lamp"   src="img/ON.gif" alt="porkedex" width="200px" height="200px">
+
+<script>
+
+function Picachu(){
+
+    document.getElementById('lamp').src ='pikachu.jpg' ;
+   
+
+}
+function squirtle(){
+    document.getElementById('lamp').src='squirtle.jpg';
+    
+
+
+}
+function Charmander(){
+
+    document.getElementById('lamp').src='charmander.jpg';
+  
+
+}
+
+
+
+</script>
+
+
+
+
+
+<button onclick="Picachu()"  >Picachu</button>
+<button onclick="squirtle()" >squirtle</button>
+<button onclick="Charmander()" >Charmander</button>
+
+
+    
+</body>
+</center>
+</html>
